@@ -263,7 +263,7 @@
             <div class="portfolio-wrap">
               <img src="{% static "images/portfolio/Password Generator_django.png" %}" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="https://github.com/Midhun124/Password-Generator" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/Midhun124/Password-Generator" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@
             <div class="portfolio-wrap">
               <img src="{% static "images/portfolio/Youtube.png" %}" class="img-fluid" alt="">
               <div class="portfolio-links">        
-                <a href="https://github.com/Midhun124/Youtube.com" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/Midhun124/Youtube.com" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -422,7 +422,7 @@
             </div>
           </div>
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{% url 'contact' %}" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -457,7 +457,7 @@
   <footer id="footer">
     <div class="container px-2">
       <div class="credits">
-        Designed by <a href="https://www.linkedin.com/in/midhunbalachandran">Midhun Balachandran</a>
+        Designed by <a href="https://www.instagram.com/midhun_.x._" target="_blank">Midhun Balachandran</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
